@@ -2,4 +2,4 @@
 - Live frames were captured using **OpenCV**.
 - Utilized the **MediaPipe Holistic model** to extract **key points** (coordinates) of hand gestures,face and body position.
 - The model is trained on three action classes but can be trained on more.
-- An **LSTM** model was used to improve prediction accuracy by maintaining the context of previous actions, perhaps a cnn layer could be used for better pooling of the prominent features.**
+- An **LSTM** model was used to improve prediction accuracy by maintaining the context of previous actions, perhaps a cnn layer could be used for better pooling of the prominent features.
