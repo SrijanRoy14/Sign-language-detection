@@ -1,0 +1,5 @@
+- A novel approach to assist deaf and mute individuals by converting hand gestures to text in real time.
+- Live frames were captured using OpenCV.
+- Utilized the MediaPipe Holistic model to extract key points (coordinates) of hand gestures.,face and body position.
+- The model is trained on three action classes but can be trained on more.
+- An LSTM model was used to improve prediction accuracy by maintaining the context of previous actions, perhaps a cnn layer could be used for better pooling of the prominent features.
